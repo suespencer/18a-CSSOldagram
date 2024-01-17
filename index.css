@@ -1,0 +1,89 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Sans 3', sans-serif;
+}
+
+body {
+    width: 375px;
+    border: 1px solid green;
+}
+
+.top-header {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #C6C6C6;
+    background: #FFF;
+    padding: 10px 5px;
+}
+
+.margin-top {
+    margin-top: 12px;
+}
+
+.artist-info {
+    margin-left: -10px;
+}
+
+.logo {
+    width: 128px;
+}
+
+
+.avatar {
+    border-radius: 50%;
+    border: none;
+    width: 34px;
+    height: 34px;
+    /* margin: 10px 10px; */
+}
+
+.selfie-thumbnail {
+    /* padding-top: 12px; */
+    margin: 20px;
+    border-radius: 50%;
+    border: none;
+    width: 34px;
+    height: 34px;
+}
+
+h4 {
+    margin-bottom: 0;
+}
+
+.artist-info-section {
+    display: flex;
+    /* margin-top: 2px; */
+}
+
+.artist-info-section p {
+    margin: 0;
+}
+
+.artist-selfie-section img {
+    width: 375px;
+}
+
+.icons {
+    width: 30px;
+    margin: 10px 10px 10px 0;
+ 
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.likes-section {
+margin: 10px;
+}
+
+.likes-section p {
+    margin: 0px 10px 0 0;
+    font-weight: 900;
+    }
+
+.posts-section {
+    margin: 10px;
+    font-size: 13px;
+}
